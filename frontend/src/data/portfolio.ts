@@ -221,6 +221,17 @@ export const portfolio: Portfolio = {
         "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/43d4cc3e1b7535fb_image.png",
         "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/157f38fe72d66870_image.png"
       ]
+    },
+    {
+      "category": "Community Awareness",
+      "date": "17 November 2026",
+      "title": "Community Awareness Program — Invertis University × Google",
+      "place": "Rajkiya Inter College, Balipur Ahmadpur, Bareilly",
+      "description": "Took part in the Community Awareness Program (Session 2026–27) organised by Invertis Institute of Education in collaboration with Google. B.Sc. B.Ed. students and faculty reached out to the local community with awareness posters and messages at Rajkiya Inter College, Balipur Ahmadpur.",
+      "photos": [
+        "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/c2ce8e0ace43eea3_image.png",
+        "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/4a208bab850d329a_image.png"
+      ]
     }
   ],
   "certificates": [

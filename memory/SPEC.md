@@ -11,7 +11,7 @@ Single-page portfolio at `/` with a sticky header (portrait, name, badge, Resume
 - QR code (qrcode.react) to fixed https://ilma-muskan-portfolio.netlify.app (PORTFOLIO_URL in ShareQR.tsx): in Overview "Contact & Verification" card (with Copy link) and a compact card at the bottom of every other tab (prints too)
 3. Teaching & Internships: 4 roles
 4. Achievements (6) & Skills (2 groups)
-5. Events & Photo Gallery: 5 events (5th = CTET 2026 felicitation, 1 photo); 6th = Two-Week School Observation at Bedi International School, Apr 2025, 2 photos; first 4 have 3 photos each (3rd = Practical Work & Teaching Aid Models, 4th = School Observation Project at Sacred Hearts, Apr 2026), lightbox w/ prev/next/Esc
+5. Events & Photo Gallery: 5 events (5th = CTET 2026 felicitation, 1 photo); 6th = Two-Week School Observation at Bedi International School, Apr 2025, 2 photos; 7th = Community Awareness Program, 17 Nov 2026, 2 photos; first 4 have 3 photos each (3rd = Practical Work & Teaching Aid Models, 4th = School Observation Project at Sacred Hearts, Apr 2026), lightbox w/ prev/next/Esc
 6. Certificates: 14 (incl. 2 internship certificates: Bedi Intl School observation, Sacred Hearts Kiducation-2 internship), sorted ascending by date, click opens full-size lightbox
 
 ## Data
