@@ -13,8 +13,8 @@ export const portfolio: Portfolio = {
     ],
     "tagline": "CTET-Qualified Educator | Middle School Teaching | Private Tutor",
     "bio": "Enthusiastic and CTET-qualified educator with experience in guiding middle school students. Skilled at creating interactive learning environments, simplifying complex concepts, and building student confidence. Dedicated to fostering curiosity, discipline, and academic growth through effective teaching strategies and student-centered learning.",
-    "portrait": "https://customer-assets-39nsmqrw.emergentagent.net/job_shreya-build--0ui94ofk/artifacts/d83c8ca0883670c7_image.png",
-    "resume": "https://customer-assets-39nsmqrw.emergentagent.net/job_shreya-build--0ui94ofk/artifacts/f0f0b3519e5b813e_IlmaMuskanResume%20%2813%29.pdf"
+    "portrait": "/media/d83c8ca0883670c7_image.png",
+    "resume": "/media/Ilma-Muskan-Resume.pdf"
   },
   "stats": [
     {
@@ -160,9 +160,9 @@ export const portfolio: Portfolio = {
       "place": "Invertis University, Bareilly",
       "description": "Bharat Scouts & Guides Special Introductory Course camp held at Invertis University, with tent pitching, campsite decoration and the closing ceremony.",
       "photos": [
-        "https://customer-assets-39nsmqrw.emergentagent.net/job_shreya-build--0ui94ofk/artifacts/d84376584a6810bc_image.png",
-        "https://customer-assets-39nsmqrw.emergentagent.net/job_shreya-build--0ui94ofk/artifacts/eb60b505ac58f62a_image.png",
-        "https://customer-assets-39nsmqrw.emergentagent.net/job_shreya-build--0ui94ofk/artifacts/2fa715cb51a1132e_image.png"
+        "/media/d84376584a6810bc_image.png",
+        "/media/eb60b505ac58f62a_image.png",
+        "/media/2fa715cb51a1132e_image.png"
       ]
     },
     {
@@ -172,9 +172,9 @@ export const portfolio: Portfolio = {
       "place": "Invertis University, Bareilly",
       "description": "Presenting “Lab Grown Diamonds” at ICRAS-2026 (3rd position), and the medals from ICRAS-2025 (2nd position).",
       "photos": [
-        "https://customer-assets-39nsmqrw.emergentagent.net/job_shreya-build--0ui94ofk/artifacts/8fa29fa8874d28a9_image.png",
-        "https://customer-assets-39nsmqrw.emergentagent.net/job_shreya-build--0ui94ofk/artifacts/447d8bad443a6d7c_image.png",
-        "https://customer-assets-39nsmqrw.emergentagent.net/job_shreya-build--0ui94ofk/artifacts/a6a1bfa1486fa9b5_image.png"
+        "/media/8fa29fa8874d28a9_image.png",
+        "/media/447d8bad443a6d7c_image.png",
+        "/media/a6a1bfa1486fa9b5_image.png"
       ]
     }
   ],
@@ -276,7 +276,7 @@ export const portfolio: Portfolio = {
       "issuer": "Invertis University, Bareilly",
       "details": "Main Result • Session 2023–24",
       "files": [
-        "https://customer-assets-39nsmqrw.emergentagent.net/job_shreya-build--0ui94ofk/artifacts/0d8ef1edfcd69b7d_image.png"
+        "/media/0d8ef1edfcd69b7d_image.png"
       ]
     },
     {
@@ -286,7 +286,7 @@ export const portfolio: Portfolio = {
       "issuer": "Invertis University, Bareilly",
       "details": "Main Result • Session 2024–25",
       "files": [
-        "https://customer-assets-39nsmqrw.emergentagent.net/job_shreya-build--0ui94ofk/artifacts/f254eb5e5bfff33b_image.png"
+        "/media/f254eb5e5bfff33b_image.png"
       ]
     },
     {
@@ -296,7 +296,7 @@ export const portfolio: Portfolio = {
       "issuer": "Invertis University, Bareilly",
       "details": "Main Result • Session 2025–26",
       "files": [
-        "https://customer-assets-39nsmqrw.emergentagent.net/job_shreya-build--0ui94ofk/artifacts/c41d56b41d977eb3_image.png"
+        "/media/c41d56b41d977eb3_image.png"
       ]
     }
   ],

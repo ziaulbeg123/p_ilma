@@ -2,9 +2,12 @@ import { useState } from "react";
 import { QRCodeSVG } from "qrcode.react";
 import { Check, Copy } from "lucide-react";
 
-/** QR code + copyable link pointing at this portfolio's own address. */
+/** Public address of the portfolio (Netlify). */
+const PORTFOLIO_URL = "https://ilma-muskan.netlify.app";
+
+/** QR code + copyable link pointing at the portfolio's public address. */
 export default function ShareQR({ size = 132, compact = false }: { size?: number; compact?: boolean }) {
-  const url = typeof window !== "undefined" ? window.location.origin + "/" : "/";
+  const url = PORTFOLIO_URL;
   const [copied, setCopied] = useState(false);
 
   const copy = async () => {
