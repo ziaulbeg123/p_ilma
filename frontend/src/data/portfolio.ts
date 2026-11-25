@@ -200,6 +200,16 @@ export const portfolio: Portfolio = {
         "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/3286ffd0751d3708_image.png",
         "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/ac1eef1cc08c5034_image.png"
       ]
+    },
+    {
+      "category": "CTET Achievement",
+      "date": "CTET 2026",
+      "title": "CTET 2026 Paper 2 Qualified — Felicitation at Invertis University",
+      "place": "Invertis University, Bareilly",
+      "description": "Qualified the Central Teacher Eligibility Test (CTET) 2026 Paper 2. Group photo with fellow CTET-qualified B.Sc. B.Ed. students and faculty of Invertis University, holding the result sheets.",
+      "photos": [
+        "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/81d29b9492dcbb7f_image.png"
+      ]
     }
   ],
   "certificates": [
