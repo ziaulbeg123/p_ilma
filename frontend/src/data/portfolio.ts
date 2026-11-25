@@ -191,10 +191,10 @@ export const portfolio: Portfolio = {
     },
     {
       "category": "School Observation",
-      "date": "April 2026 • 2 Weeks",
-      "title": "Two-Week School Observation — Sacred Hearts School",
+      "date": "April 2026",
+      "title": "School Observation Project — Sacred Hearts School",
       "place": "Sacred Hearts School, Laxmi Nagar, Bareilly",
-      "description": "Two-week school observation as an intern of Invertis University. Took part in school activities including the World Health Day programme “Eat Healthy, Stay Healthy” (7 April 2026) and a staff celebration with fellow Invertis University interns.",
+      "description": "School observation project as an intern of Invertis University. Took part in school activities including the World Health Day programme “Eat Healthy, Stay Healthy” (7 April 2026) and a staff celebration with fellow Invertis University interns.",
       "photos": [
         "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/f5d3eb6cc4483239_image.png",
         "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/3286ffd0751d3708_image.png",
@@ -209,6 +209,17 @@ export const portfolio: Portfolio = {
       "description": "Qualified the Central Teacher Eligibility Test (CTET) 2026 Paper 2. Group photo with fellow CTET-qualified B.Sc. B.Ed. students and faculty of Invertis University, holding the result sheets.",
       "photos": [
         "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/81d29b9492dcbb7f_image.png"
+      ]
+    },
+    {
+      "category": "School Observation",
+      "date": "April 2025 • 2 Weeks",
+      "title": "Two-Week School Observation — Bedi International School",
+      "place": "Bedi International School, Pilibhit Bypass Road, Bareilly",
+      "description": "Two-week school observation as a B.Sc. B.Ed. (IV Sem.) student of Invertis University. Observed classroom teaching, lectures, co-curricular activities and assessment routines with students in their classrooms (photos dated 19 and 24 April 2025).",
+      "photos": [
+        "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/43d4cc3e1b7535fb_image.png",
+        "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/157f38fe72d66870_image.png"
       ]
     }
   ],
