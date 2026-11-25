@@ -188,6 +188,18 @@ export const portfolio: Portfolio = {
         "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/a9bce2f6d1bca56a_image.png",
         "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/60995d0beec1d88e_image.png"
       ]
+    },
+    {
+      "category": "School Observation",
+      "date": "April 2026 • 2 Weeks",
+      "title": "Two-Week School Observation — Sacred Hearts School",
+      "place": "Sacred Hearts School, Laxmi Nagar, Bareilly",
+      "description": "Two-week school observation as an intern of Invertis University. Took part in school activities including the World Health Day programme “Eat Healthy, Stay Healthy” (7 April 2026) and a staff celebration with fellow Invertis University interns.",
+      "photos": [
+        "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/f5d3eb6cc4483239_image.png",
+        "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/3286ffd0751d3708_image.png",
+        "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/ac1eef1cc08c5034_image.png"
+      ]
     }
   ],
   "certificates": [
