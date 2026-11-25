@@ -176,6 +176,18 @@ export const portfolio: Portfolio = {
         "/media/447d8bad443a6d7c_image.png",
         "/media/a6a1bfa1486fa9b5_image.png"
       ]
+    },
+    {
+      "category": "Practical Work",
+      "date": "B.Sc. B.Ed. V Semester",
+      "title": "Practical Work & Teaching Aid Models",
+      "place": "Invertis University, Bareilly",
+      "description": "Hands-on teaching aid models prepared as part of B.Sc. B.Ed. practical work: a 3D Periodic Table model and a Life Cycle of a Butterfly model (eggs, larva, chrysalis, butterfly), along with a group photo with fellow B.Sc. B.Ed. trainees.",
+      "photos": [
+        "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/02c20ced36f0f4ed_image.png",
+        "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/a9bce2f6d1bca56a_image.png",
+        "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/60995d0beec1d88e_image.png"
+      ]
     }
   ],
   "certificates": [
