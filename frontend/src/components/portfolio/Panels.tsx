@@ -3,6 +3,7 @@ import type { ReactNode } from "react";
 import type { Certificate, LightboxImage, Portfolio } from "@/data/types";
 import type { TabId } from "./Shell";
 import { Card, Pill, Reveal, SectionHeading } from "./ui";
+import ShareQR from "./ShareQR";
 
 type OpenLightbox = (images: LightboxImage[], index: number) => void;
 
@@ -192,6 +193,9 @@ export function OverviewPanel({ data, openLightbox, goTo }: PanelProps) {
               );
             })}
           </div>
+          <div className="mt-6 rounded-2xl bg-cream p-5 md:p-6">
+            <ShareQR />
+          </div>
         </Card>
       </Reveal>
     </div>
@@ -200,7 +204,11 @@ export function OverviewPanel({ data, openLightbox, goTo }: PanelProps) {
 
 /* ---------------- 2. Education ---------------- */
 
-export function EducationPanel({ data }: PanelProps) {
+export function EducationPanel({ data, openLightbox }: PanelProps) {
+  const marksheets = data.certificates
+    .filter((c) => c.category === "Academic Marksheets")
+    .sort((a, b) => a.date.localeCompare(b.date));
+  const marksheetImgs = certImages(marksheets);
   return (
     <Card data-testid="education-section">
       <SectionHeading eyebrow="Academic Record" title="Education & Marks" />
@@ -218,6 +226,38 @@ export function EducationPanel({ data }: PanelProps) {
                 <Pill className="mt-4 bg-white ring-1 ring-line">
                   <span data-testid={`education-result-${i}`}>{e.result}</span>
                 </Pill>
+                {e.title.includes("B.Sc") && marksheets.length > 0 && (
+                  <div data-testid="bsc-marksheets" className="mt-6">
+                    <p className="text-sm font-semibold text-cocoa">
+                      Year-wise Marksheets <span className="font-normal text-muted-ink">(click to view full-size)</span>
+                    </p>
+                    <div className="mt-3 grid gap-4 sm:grid-cols-3">
+                      {marksheets.map((m, mi) => (
+                        <button
+                          key={m.title}
+                          data-testid={`marksheet-card-${mi}`}
+                          onClick={() => openLightbox(marksheetImgs, mi)}
+                          className="group overflow-hidden rounded-2xl border border-line bg-white text-left transition-[transform,box-shadow] duration-300 hover:-translate-y-1 hover:shadow-lift focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cocoa"
+                        >
+                          <div className="overflow-hidden bg-amber-soft/50">
+                            <img
+                              src={m.files[0]}
+                              alt={m.title}
+                              loading="lazy"
+                              className="aspect-[3/4] w-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-105"
+                            />
+                          </div>
+                          <div className="p-3.5">
+                            <p className="text-sm font-bold leading-snug text-cocoa">
+                              {m.title.replace("B.Sc. B.Ed. ", "")}
+                            </p>
+                            <p className="mt-0.5 text-xs text-muted-ink">{m.details}</p>
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
             </li>
           </Reveal>

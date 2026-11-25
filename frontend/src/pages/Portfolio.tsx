@@ -5,6 +5,7 @@ import { portfolio } from "@/data/portfolio";
 import type { LightboxImage } from "@/data/types";
 import { Header, SideNav, TABS, type TabId } from "@/components/portfolio/Shell";
 import Lightbox from "@/components/portfolio/Lightbox";
+import ShareQR from "@/components/portfolio/ShareQR";
 import {
   AchievementsPanel,
   CertificatesPanel,
@@ -68,7 +69,12 @@ export default function Portfolio() {
               <Panel data={portfolio} openLightbox={openLightbox} goTo={goTo} />
             </motion.div>
           </AnimatePresence>
-          <footer className="mt-12 border-t border-line pt-6 text-center text-sm text-muted-ink print:hidden">
+          {active !== "overview" && (
+            <div className="mt-10 rounded-[24px] border border-line bg-white p-5 shadow-soft md:p-6 print:break-inside-avoid">
+              <ShareQR size={96} compact />
+            </div>
+          )}
+          <footer className="mt-10 border-t border-line pt-6 text-center text-sm text-muted-ink print:hidden">
             © {portfolio.profile.name} • {portfolio.profile.subtitle}
           </footer>
         </main>

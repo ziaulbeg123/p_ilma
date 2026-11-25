@@ -7,7 +7,8 @@ Single-page portfolio at `/` with a sticky header (portrait, name, badge, Resume
 (sidebar on desktop, horizontal scroll bar on mobile). Active tab lives in `?tab=` (overview | education | teaching | achievements | events | certificates).
 
 1. Overview: badges, name, tagline, bio, portrait, CTA buttons (-> certificates / events tabs), 4 stat cards, 6 featured photos (lightbox), Contact & Verification (mailto/tel links)
-2. Education & Marks: 3 entries (86.15%, 73.4%, 84.5%)
+2. Education & Marks: 3 entries (86.15%, 73.4%, 84.5%); B.Sc. B.Ed. entry shows 3 year-wise marksheets (marksheet-card-0..2, lightbox)
+- QR code (qrcode.react) to window.location.origin: in Overview "Contact & Verification" card (with Copy link) and a compact card at the bottom of every other tab (prints too)
 3. Teaching & Internships: 4 roles
 4. Achievements (6) & Skills (2 groups)
 5. Events & Photo Gallery: 2 events x 3 photos, lightbox w/ prev/next/Esc
