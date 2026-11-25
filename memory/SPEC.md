@@ -1,0 +1,18 @@
+# Ilma Muskan — Educator E-Portfolio
+
+Rebuild of https://shreya-build--0ui94ofk.preview.emergentagent.com/ (same content/photos, refreshed finish).
+
+## What it does
+Single-page portfolio at `/` with a sticky header (portrait, name, badge, Resume PDF link, Print/PDF) and 6 numbered tabs
+(sidebar on desktop, horizontal scroll bar on mobile). Active tab lives in `?tab=` (overview | education | teaching | achievements | events | certificates).
+
+1. Overview: badges, name, tagline, bio, portrait, CTA buttons (-> certificates / events tabs), 4 stat cards, 6 featured photos (lightbox), Contact & Verification (mailto/tel links)
+2. Education & Marks: 3 entries (86.15%, 73.4%, 84.5%)
+3. Teaching & Internships: 4 roles
+4. Achievements (6) & Skills (2 groups)
+5. Events & Photo Gallery: 2 events x 3 photos, lightbox w/ prev/next/Esc
+6. Certificates: 12, sorted ascending by date, click opens full-size lightbox
+
+## Data
+Static, fixed content in `frontend/src/data/portfolio.ts` (types in `data/types.ts`). No backend endpoints, no admin, no login.
+Certificate images 1–9 stored locally in `frontend/public/certificates/`; photos/portrait/marksheets/resume are on customer-assets CDN.

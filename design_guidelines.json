@@ -1,0 +1,259 @@
+{
+  "typography": {
+    "font_family_heading": "Playfair Display Variable, Georgia, serif",
+    "font_family_body": "Inter Variable, system-ui, -apple-system, sans-serif",
+    "font_family_mono": "JetBrains Mono Variable, monospace",
+    "scale_px": {
+      "display": 52,
+      "h1": 42,
+      "h2": 32,
+      "h3": 24,
+      "body": 16,
+      "caption": 14
+    },
+    "font_weights": {
+      "heading_bold": "700",
+      "heading_semibold": "600",
+      "body_regular": "400",
+      "body_medium": "500",
+      "body_semibold": "600"
+    },
+    "tracking": {
+      "display": "-0.025em",
+      "heading": "-0.015em",
+      "body": "0em",
+      "label": "0.15em"
+    }
+  },
+  "colors": {
+    "theme_mode": "light",
+    "accent": "#5C3A21",
+    "on_accent": "#FFFFFF",
+    "surfaces": [
+      {
+        "name": "page",
+        "kind": "solid",
+        "bg": "#FAF5F0",
+        "on_bg": "#2C1B10",
+        "on_bg_muted": "#6E5444",
+        "roles": {
+          "brand": "#5C3A21",
+          "accent_amber": "#C87D20",
+          "border": "#E8DDD3",
+          "link": "#5C3A21",
+          "hover_link": "#3D2413"
+        }
+      },
+      {
+        "name": "card_surface",
+        "kind": "solid",
+        "bg": "#FFFFFF",
+        "on_bg": "#2C1B10",
+        "on_bg_muted": "#705847",
+        "roles": {
+          "border": "#EDE3DA",
+          "badge_bg": "#F5EBE1",
+          "badge_text": "#5C3A21",
+          "success": "#1E6E38",
+          "accent_highlight": "#C87D20"
+        }
+      },
+      {
+        "name": "header_sticky",
+        "kind": "glass",
+        "contrast_against": "#FAF5F0",
+        "guarantee": "backdrop-blur-xl bg-[#FAF5F0]/85 border-b border-[#E8DDD3]",
+        "on_bg": "#2C1B10",
+        "on_bg_muted": "#6E5444",
+        "roles": {
+          "button_primary_bg": "#5C3A21",
+          "button_primary_text": "#FFFFFF",
+          "button_secondary_bg": "#FFFFFF",
+          "button_secondary_text": "#5C3A21"
+        }
+      },
+      {
+        "name": "sidebar_nav",
+        "kind": "solid",
+        "bg": "#FFFFFF",
+        "on_bg": "#2C1B10",
+        "on_bg_muted": "#7A6251",
+        "roles": {
+          "active_tab_bg": "#5C3A21",
+          "active_tab_text": "#FFFFFF",
+          "hover_tab_bg": "#F5EBE1",
+          "hover_tab_text": "#3D2413",
+          "step_number_bg": "#F5EBE1",
+          "step_number_active": "#C87D20"
+        }
+      },
+      {
+        "name": "hero_banner",
+        "kind": "solid",
+        "bg": "#F7EFE7",
+        "on_bg": "#2C1B10",
+        "on_bg_muted": "#6E5444",
+        "roles": {
+          "tag_bg": "#EFE0D2",
+          "tag_text": "#5C3A21",
+          "border": "#E6D6C7"
+        }
+      },
+      {
+        "name": "lightbox_overlay",
+        "kind": "solid",
+        "bg": "rgba(25, 14, 8, 0.94)",
+        "on_bg": "#FAF5F0",
+        "on_bg_muted": "#D6C4B5",
+        "roles": {
+          "close_btn_bg": "rgba(255, 255, 255, 0.15)",
+          "close_btn_text": "#FFFFFF"
+        }
+      }
+    ]
+  },
+  "entry_surfaces": {
+    "/": "editorial portfolio shell with sticky warm header, responsive sticky 6-tab numbered navigation (horizontal on mobile, vertical sidebar on desktop), and full section cascade"
+  },
+  "visual_enhancers": {
+    "border_radius": {
+      "cards": "rounded-[24px]",
+      "pills": "rounded-full",
+      "inner_boxes": "rounded-[16px]",
+      "avatars": "rounded-full"
+    },
+    "shadows": {
+      "card_soft": "0 4px 20px -2px rgba(92, 58, 33, 0.05), 0 2px 6px -1px rgba(92, 58, 33, 0.03)",
+      "card_hover": "0 12px 32px -4px rgba(92, 58, 33, 0.12), 0 4px 12px -2px rgba(92, 58, 33, 0.06)",
+      "sticky_nav": "0 2px 12px 0 rgba(92, 58, 33, 0.04)"
+    },
+    "textures": "Subtle warm paper grain background hint using CSS pattern or gradient overlay"
+  },
+  "layouts_and_grids": {
+    "page_structure": "max-w-[1360px] mx-auto px-4 sm:px-6 lg:px-8 py-6",
+    "main_split": "grid grid-cols-1 lg:grid-cols-12 gap-8 items-start",
+    "sidebar_column": "lg:col-span-3 lg:sticky lg:top-24",
+    "content_column": "lg:col-span-9 space-y-12",
+    "stats_grid": "grid grid-cols-2 sm:grid-cols-4 gap-4",
+    "gallery_grid": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5",
+    "certificates_grid": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6",
+    "education_timeline": "space-y-6 relative border-l-2 border-[#E8DDD3] ml-4 pl-6"
+  },
+  "section_order": [
+    {
+      "id": "overview",
+      "tab_number": 1,
+      "title": "Overview & Profile",
+      "subcomponents": [
+        "Hero Card (Avatar, Name: Ilma Muskan, CTET Badge, Bio, Contact chips, Action buttons)",
+        "4 Key Stat Cards (CTET Qualified, B.Sc. B.Ed. 8.5+ CGPA, 100+ Teaching Hours, 12+ Certifications)",
+        "Featured Photo Preview (6 curated gallery thumbnails with lightbox trigger)",
+        "Contact & Quick Verification Card (Email mailto, Phone tel, Verification links)"
+      ]
+    },
+    {
+      "id": "education",
+      "tab_number": 2,
+      "title": "Education & Marks",
+      "subcomponents": [
+        "B.Ed. & B.Sc. Degree Cards with Marks/CGPA breakdown, Specializations (Mathematics & Science pedagogy)",
+        "Senior Secondary & Secondary board details",
+        "CTET Certification Scorecard & Eligibility status"
+      ]
+    },
+    {
+      "id": "teaching",
+      "tab_number": 3,
+      "title": "Teaching & Internships",
+      "subcomponents": [
+        "School Internship Experience (Government / Model Schools, lesson plan deliveries)",
+        "Pedagogy & Classroom methodology highlights",
+        "Action research & student engagement projects"
+      ]
+    },
+    {
+      "id": "achievements",
+      "tab_number": 4,
+      "title": "Achievements & Skills",
+      "subcomponents": [
+        "Core Teaching Competencies (Lesson Planning, STEM Pedagogy, Bilingual Instruction, Student Assessment)",
+        "Technical Skills (Smartboards, ICT in Education, Educational Tools, LMS)",
+        "Academic & Co-curricular Honors & Recognitions"
+      ]
+    },
+    {
+      "id": "events",
+      "tab_number": 5,
+      "title": "Events & Photo Gallery",
+      "subcomponents": [
+        "Categorized photo gallery (Teaching Internships, Science Exhibitions, Workshops, Campus Activities)",
+        "Interactive Image Lightbox with zoom, captions, and keyboard navigation"
+      ]
+    },
+    {
+      "id": "certificates",
+      "tab_number": 6,
+      "title": "Certificates",
+      "subcomponents": [
+        "12 Verified Certificates sorted in ascending chronological/category order",
+        "Filterable tabs (All, CTET & Academic, Pedagogy & Teaching, Workshops & ICT)",
+        "Certificate Card with Issuing Authority, Date, Credential ID, and full-screen preview viewer"
+      ]
+    }
+  ],
+  "motion_and_interactions": {
+    "transitions": "transition-all duration-200 ease-out",
+    "card_hover": "hover:-translate-y-1 hover:shadow-lg transition-transform duration-200",
+    "tab_scroll_behavior": "smooth scroll into view when clicking sidebar nav, with active intersection observer tracking",
+    "lightbox_animation": "scale and fade entrance for modal dialog"
+  },
+  "accessibility": {
+    "wcag_compliance": "WCAG AA (4.5:1 minimum text contrast on all backgrounds)",
+    "data_test_ids": "Mandatory on all tabs, buttons, contact triggers, lightbox modal, and certificate cards",
+    "keyboard_nav": "Full keyboard accessibility on tabs, dialog, print trigger, and gallery",
+    "print_styles": "Optimized @media print CSS for clean resume/portfolio printing"
+  },
+  "image_urls": {
+    "profile_avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80",
+    "teaching_photos": [
+      {
+        "url": "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=800&q=80",
+        "title": "Classroom Science Demonstration",
+        "category": "Teaching"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80",
+        "title": "Interactive Mathematics Session",
+        "category": "Teaching"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=800&q=80",
+        "title": "Teacher Training & Curriculum Workshop",
+        "category": "Workshops"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=800&q=80",
+        "title": "Student Group Discussion & Mentorship",
+        "category": "Events"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=800&q=80",
+        "title": "School Science Fair & Project Exhibition",
+        "category": "Events"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80",
+        "title": "Digital Classroom & ICT Pedagogy",
+        "category": "Technology"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "Retain the exact warm cream (#FAF5F0), rich cocoa brown (#5C3A21), and amber accent (#C87D20) aesthetic.",
+    "Implement the 6 numbered tabs matching the exact reference structure: 1. Overview & Profile, 2. Education & Marks, 3. Teaching & Internships, 4. Achievements & Skills, 5. Events & Photo Gallery, 6. Certificates.",
+    "Include high-fidelity seed data for Ilma Muskan (CTET qualified educator, B.Sc. B.Ed.), including all 12 certificates with verified details and certificate viewer dialog.",
+    "Ensure the sticky header has the profile thumbnail, name, 'CTET Qualified • B.Sc. B.Ed.' badge, subtitle, 'Download Resume' (downloads/opens PDF), and 'Print Portfolio' button with print-specific stylesheet.",
+    "Add responsive navigation: desktop sticky sidebar on the left (col-span-3), mobile smooth horizontal-scrolling sticky tabs bar.",
+    "Every interactive element (tabs, CTAs, lightbox items, certificates, print buttons) MUST have standard data-testid attributes."
+  ]
+}
