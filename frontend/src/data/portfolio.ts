@@ -180,6 +180,26 @@ export const portfolio: Portfolio = {
   ],
   "certificates": [
     {
+      "date": "2025-04-26",
+      "category": "Internship Certificates",
+      "title": "Certificate of Successful Completion of Two-Week School Observation",
+      "issuer": "Bedi International School, Bareilly (Affiliated to C.B.S.E.)",
+      "details": "B.Sc. B.Ed. (IV Sem.) • Ref. No. BIS/IC/2025-26/01 • Dated 26 April 2025 • Signed by Principal J. K. Sawhney",
+      "files": [
+        "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/0de53cfb0a595636_image.png"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "category": "Internship Certificates",
+      "title": "Certificate of Successful Completion of Fourteen-Week School Internship",
+      "issuer": "Sacred Hearts Kiducation-2, Laxmi Nagar, Sanjay Nagar, Bareilly",
+      "details": "Roles: Science Teacher & Activity Teacher • Dated 10 October 2026 • Signed by Principal Mrs. Asha Kandpal",
+      "files": [
+        "https://customer-assets-wrfwihn1.emergentagent.net/job_shreya-studio-2--3rgfbn17/artifacts/588f252a641cbb13_image.png"
+      ]
+    },
+    {
       "date": "2016-03",
       "category": "Olympiads",
       "title": "6th SOF International English Olympiad — Certificate of Participation",

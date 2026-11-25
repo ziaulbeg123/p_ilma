@@ -8,11 +8,11 @@ Single-page portfolio at `/` with a sticky header (portrait, name, badge, Resume
 
 1. Overview: badges, name, tagline, bio, portrait, CTA buttons (-> certificates / events tabs), 4 stat cards, 6 featured photos (lightbox), Contact & Verification (mailto/tel links)
 2. Education & Marks: 3 entries (86.15%, 73.4%, 84.5%); B.Sc. B.Ed. entry shows 3 year-wise marksheets (marksheet-card-0..2, lightbox)
-- QR code (qrcode.react) to fixed https://ilma-muskan.netlify.app (PORTFOLIO_URL in ShareQR.tsx): in Overview "Contact & Verification" card (with Copy link) and a compact card at the bottom of every other tab (prints too)
+- QR code (qrcode.react) to fixed https://ilma-muskan-portfolio.netlify.app (PORTFOLIO_URL in ShareQR.tsx): in Overview "Contact & Verification" card (with Copy link) and a compact card at the bottom of every other tab (prints too)
 3. Teaching & Internships: 4 roles
 4. Achievements (6) & Skills (2 groups)
 5. Events & Photo Gallery: 2 events x 3 photos, lightbox w/ prev/next/Esc
-6. Certificates: 12, sorted ascending by date, click opens full-size lightbox
+6. Certificates: 14 (incl. 2 internship certificates: Bedi Intl School observation, Sacred Hearts Kiducation-2 internship), sorted ascending by date, click opens full-size lightbox
 
 ## Data
 Frontend-only static site — the backend was removed at the user's request (no /api, no DB). Netlify config in `/app/netlify.toml` (base `frontend`, build `yarn build`, publish `dist`, SPA redirect).

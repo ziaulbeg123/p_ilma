@@ -423,7 +423,7 @@ export function CertificatesPanel({ data, openLightbox }: PanelProps) {
       <Card className="pb-6 md:pb-8">
         <SectionHeading eyebrow={`${certs.length} Verified Documents`} title="Certificates (Ascending Order)" />
         <p className="mt-3 max-w-2xl text-muted-ink">
-          Olympiads, co-curricular, conference and academic records arranged oldest to newest. Click any certificate
+          Olympiads, co-curricular, conference, internship and academic records arranged oldest to newest. Click any certificate
           to view it full-size.
         </p>
       </Card>

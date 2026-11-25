@@ -3,7 +3,7 @@ import { QRCodeSVG } from "qrcode.react";
 import { Check, Copy } from "lucide-react";
 
 /** Public address of the portfolio (Netlify). */
-const PORTFOLIO_URL = "https://ilma-muskan.netlify.app";
+const PORTFOLIO_URL = "https://ilma-muskan-portfolio.netlify.app";
 
 /** QR code + copyable link pointing at the portfolio's public address. */
 export default function ShareQR({ size = 132, compact = false }: { size?: number; compact?: boolean }) {
