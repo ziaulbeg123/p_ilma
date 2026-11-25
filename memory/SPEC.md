@@ -15,5 +15,6 @@ Single-page portfolio at `/` with a sticky header (portrait, name, badge, Resume
 6. Certificates: 12, sorted ascending by date, click opens full-size lightbox
 
 ## Data
-Static, fixed content in `frontend/src/data/portfolio.ts` (types in `data/types.ts`). No backend endpoints, no admin, no login.
+Frontend-only static site — the backend was removed at the user's request (no /api, no DB). Netlify config in `/app/netlify.toml` (base `frontend`, build `yarn build`, publish `dist`, SPA redirect).
+Static, fixed content in `frontend/src/data/portfolio.ts` (types in `data/types.ts`). No admin, no login.
 All assets are self-hosted: certificates in `frontend/public/certificates/`, portrait/event photos/marksheets/resume PDF in `frontend/public/media/`. No external asset URLs (Netlify-ready: base `frontend`, build `yarn build`, publish `frontend/dist`).
